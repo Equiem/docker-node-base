@@ -1,6 +1,4 @@
-FROM node:8.12-slim
-
-WORKDIR /usr/src
+FROM node:8.12-jessie
 
 # Install AWS XRAY daemon
 RUN apt-get update -y && \
