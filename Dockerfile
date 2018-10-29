@@ -1,7 +1,6 @@
-FROM node:8.12-jessie
+FROM node:8.12-slim
 
 WORKDIR /usr/src
-RUN npm install -g npm@6.4.1
 ENV NODE_ENV production
 
 # Install AWS XRAY daemon
