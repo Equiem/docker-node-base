@@ -1,4 +1,4 @@
-FROM node:8.14-slim
+FROM node:10.16-slim
 
 WORKDIR /usr/src
 ENV NODE_ENV production
